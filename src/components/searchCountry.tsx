@@ -37,7 +37,7 @@ export default function SearchCountry({
         </Button>
       ) : (
         <form
-          className="flex w-full max-w-md items-center space-x-2"
+          className="flex w-1/2 max-w-md items-center space-x-2"
           onSubmit={handleSubmit}
         >
           <Input
