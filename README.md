@@ -1,4 +1,4 @@
-# Country Population Visualizer
+# Country Population Visualiser
 This is a small web application developed for Elanco's second interview.
 
 ### Goal
