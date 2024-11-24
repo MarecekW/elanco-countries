@@ -102,6 +102,7 @@ export default function PageClient() {
             {countries[0].name === "" ? (
               <>
                 <SearchCountry
+                  variant="side"
                   loading={loading}
                   id={0}
                   onSearch={handleSearch}
@@ -125,6 +126,7 @@ export default function PageClient() {
             {countries[1].name === "" ? (
               <>
                 <SearchCountry
+                  variant="side"
                   loading={loading}
                   id={1}
                   onSearch={handleSearch}
@@ -146,7 +148,12 @@ export default function PageClient() {
         </div>
       ) : (
         <div>
-          <SearchCountry loading={loading} id={0} onSearch={handleSearch} />
+          <SearchCountry
+            variant="main"
+            loading={loading}
+            id={0}
+            onSearch={handleSearch}
+          />
           {error && <p className="text-red-500 mt-4">{error}</p>}
         </div>
       )}
