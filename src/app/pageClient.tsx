@@ -147,7 +147,7 @@ export default function PageClient() {
           </div>
         </div>
       ) : (
-        <div className="flex w-1/2 justify-center items-center">
+        <div className="flex flex-col w-1/2 justify-center items-center">
           <SearchCountry
             variant="main"
             loading={loading}
